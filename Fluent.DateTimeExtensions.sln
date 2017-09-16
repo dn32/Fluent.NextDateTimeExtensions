@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.NextDateTimeExtensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.NextDateTimeExtensions.Test", "Fluent.NextDateTimeExtensions.Test\Fluent.NextDateTimeExtensions.Test.csproj", "{431077EA-F872-4D1B-BACA-3450DC610B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.DateTimeExtensions", "Fluent.DateTime\Fluent.DateTimeExtensions.csproj", "{C5566350-5299-492A-884B-E5A1050B42A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.DateTimeExtensions", "Fluent.NextDateTimeExtensions\Fluent.DateTimeExtensions.csproj", "{C5566350-5299-492A-884B-E5A1050B42A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
