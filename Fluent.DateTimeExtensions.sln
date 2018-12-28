@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.NextDateTimeExtensions.Example", "Fluent.NextDateTimeExtensions.Example\Fluent.NextDateTimeExtensions.Example.csproj", "{28102412-788F-439C-AFF6-2F5E6D719B3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.NextDateTimeExtensions.Test", "Fluent.NextDateTimeExtensions.Test\Fluent.NextDateTimeExtensions.Test.csproj", "{431077EA-F872-4D1B-BACA-3450DC610B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.DateTimeExtensions", "Fluent.NextDateTimeExtensions\Fluent.DateTimeExtensions.csproj", "{C5566350-5299-492A-884B-E5A1050B42A9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.DateTimeExtensions.Core", "Fluent.DateTimeExtensions.Core\Fluent.DateTimeExtensions.Core.csproj", "{932622E0-E45C-4C71-87CE-2FED2FD7C80F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluent.DateTimeExtensions", "Fluent.DateTimeExtensions.Core\Fluent.DateTimeExtensions.csproj", "{932622E0-E45C-4C71-87CE-2FED2FD7C80F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{431077EA-F872-4D1B-BACA-3450DC610B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{431077EA-F872-4D1B-BACA-3450DC610B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{431077EA-F872-4D1B-BACA-3450DC610B2A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5566350-5299-492A-884B-E5A1050B42A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5566350-5299-492A-884B-E5A1050B42A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5566350-5299-492A-884B-E5A1050B42A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5566350-5299-492A-884B-E5A1050B42A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{932622E0-E45C-4C71-87CE-2FED2FD7C80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{932622E0-E45C-4C71-87CE-2FED2FD7C80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932622E0-E45C-4C71-87CE-2FED2FD7C80F}.Release|Any CPU.ActiveCfg = Release|Any CPU

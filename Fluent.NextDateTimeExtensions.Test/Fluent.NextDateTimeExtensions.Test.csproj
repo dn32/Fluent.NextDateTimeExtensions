@@ -58,8 +58,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Fluent.NextDateTimeExtensions\Fluent.DateTimeExtensions.csproj">
-      <Project>{c5566350-5299-492a-884b-e5a1050b42a9}</Project>
+    <ProjectReference Include="..\Fluent.DateTimeExtensions.Core\Fluent.DateTimeExtensions.csproj">
+      <Project>{932622e0-e45c-4c71-87ce-2fed2fd7c80f}</Project>
       <Name>Fluent.DateTimeExtensions</Name>
     </ProjectReference>
   </ItemGroup>

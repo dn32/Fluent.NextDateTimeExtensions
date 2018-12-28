@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Fluent.DateTimeExtensions.Core
+namespace Fluent.DateTimeExtensions
 {
     /// <summary>
     /// Gets the next occurrence for a specific date and time.
