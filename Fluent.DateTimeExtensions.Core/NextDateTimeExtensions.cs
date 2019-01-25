@@ -17,7 +17,7 @@ namespace Fluent.DateTimeExtensions
         /// <param name="min">The minute.</param>
         /// <param name="sec">The second.</param>
         /// <returns>The resulting datetime.</returns>
-        public static DateTime GetNextMoth(this DateTime dt, int month, int? day = null, int? hour = null, int? min = null, int? sec = null)
+        public static DateTime GetNextMonth(this DateTime dt, int month, int? day = null, int? hour = null, int? min = null, int? sec = null)
         {
             day = day ?? dt.Day;
             hour = hour ?? dt.Hour;

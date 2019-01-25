@@ -12,7 +12,7 @@ namespace Fluent.NextDateTimeExtensions.Test
         {
             const int MONTH = 1;
             var now = new DateTime(2017, 10, 1, 10, 20, 30);
-            var dateTime = now.GetNextMoth(MONTH);
+            var dateTime = now.GetNextMonth(MONTH);
 
             Assert.AreEqual(dateTime.Month, MONTH);
             Assert.AreEqual(dateTime.Year, now.Year + 1);

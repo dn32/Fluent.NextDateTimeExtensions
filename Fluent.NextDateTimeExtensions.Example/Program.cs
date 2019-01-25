@@ -19,7 +19,7 @@ namespace Fluent.NextDateTimeExtensions.Example
                 Console.WriteLine(" ");
                 Console.WriteLine("Future");
 
-                Console.WriteLine("Month 1: " + dt.GetNextMoth(1));
+                Console.WriteLine("Month 1: " + dt.GetNextMonth(1));
                 Console.WriteLine("Day 10: " + dt.GetNextDay(10));
                 Console.WriteLine("Week 0: " + dt.GetNextWeekDay(DayOfWeek.Friday));
                 Console.WriteLine("Hour 10: " + dt.GetNextHour(10));
@@ -29,7 +29,7 @@ namespace Fluent.NextDateTimeExtensions.Example
                 Console.WriteLine(" ");
                 Console.WriteLine("Currently");
 
-                Console.WriteLine("Month: " + dt.GetNextMoth(DateTime.Now.Month));
+                Console.WriteLine("Month: " + dt.GetNextMonth(DateTime.Now.Month));
                 Console.WriteLine("Week: " + dt.GetNextWeekDay(DateTime.Now.DayOfWeek));
                 Console.WriteLine("Hour: " + dt.GetNextHour(DateTime.Now.Hour));
                 Console.WriteLine("Min: " + dt.GetNextMinute(DateTime.Now.Minute));
@@ -38,7 +38,7 @@ namespace Fluent.NextDateTimeExtensions.Example
                 Console.WriteLine(" ");
                 Console.WriteLine("Future");
 
-                Console.WriteLine("Month: " + dt.GetNextMoth(DateTime.Now.Month + 1));
+                Console.WriteLine("Month: " + dt.GetNextMonth(DateTime.Now.Month + 1));
                 Console.WriteLine("Week: " + dt.GetNextWeekDay(DateTime.Now.DayOfWeek + 1));
                 Console.WriteLine("Hour: " + dt.GetNextHour(DateTime.Now.Hour + 1));
                 Console.WriteLine("Min: " + dt.GetNextMinute(DateTime.Now.Minute + 1));

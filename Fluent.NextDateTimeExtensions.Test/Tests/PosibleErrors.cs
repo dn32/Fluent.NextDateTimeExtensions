@@ -8,10 +8,10 @@ namespace Fluent.NextDateTimeExtensions.Test.Tests
     public class PosibleErrors
     {
         [TestMethod]
-        public void ErrorTimeInGetNextMoth()
+        public void ErrorTimeInGetNextMonth()
         {
             var now = new DateTime(2017, 1, 10, 10, 20, 10);
-            var dateTime = now.GetNextMoth(99, 99, 99, 99, 99);
+            var dateTime = now.GetNextMonth(99, 99, 99, 99, 99);
 
             Assert.AreEqual(dateTime.Month, 12);
             Assert.AreEqual(dateTime.Day, 31);
